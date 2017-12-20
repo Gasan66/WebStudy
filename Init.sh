@@ -10,3 +10,4 @@ mkdir web/public/css
 mkdir web/public/js
 mkdir web/uploads
 mkdir web/etc
+mv -f nginx.conf web/etc/
