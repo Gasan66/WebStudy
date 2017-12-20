@@ -10,4 +10,6 @@ mkdir web/public/css
 mkdir web/public/js
 mkdir web/uploads
 mkdir web/etc
-mv -f nginx.conf web/etc/
+mv -f WebStudy/nginx.conf web/etc/
+sudo ln -s /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/test.conf
+sudo /etc/init.d/nginx restart
